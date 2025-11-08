@@ -5,6 +5,7 @@ import TopCities from '../components/HomeComponents/CollegeFinder'
 import CollegeFinder from '../components/HomeComponents/CollegeFinder'
 import ExamsPage from './ExamsPage'
 import SignupPopup from '../components/SignupPopup'
+import Zolf from '../components/HomeComponents/Zolf'
 
 const HomePage = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -32,6 +33,7 @@ const HomePage = () => {
   return (
     <div>
       <HeroBanner/>
+      <Zolf/>
       <Advertisment/>
       <CollegeFinder/>
       <ExamsPage />
